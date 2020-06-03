@@ -66,7 +66,7 @@ public class Cpu {
 		double avg1 = Math.round(average * 100.0) / 100.0;
 		
 		object.put("values",values);
-		object.put("maxcpu",max);
+		object.put("maxcpu",maximum);
 		object.put("Avgcpu",avg1);
 		
 		JSONObject report=new JSONObject();
